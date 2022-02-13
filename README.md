@@ -57,7 +57,7 @@ https://git-scm.com/download
 - `git pull` // atualiza dados a partir da branch selecionada
 
 
-## Atalho
+## Atalhos
 
 - `git checkout -b nome-da-branch` para criar uma branch nova e começar a usar instataneamente
 - `git commit -am 'mensagem do commit'` para adicionar arquivos novos/alterados e realizar o commit na sequência
