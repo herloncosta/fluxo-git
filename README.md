@@ -35,6 +35,9 @@ https://git-scm.com/download
 	- git push -u origin master para criar a branch main master no repositório remoto por ser o primeiro acesso
 	- git push para inserir os arquivos no repositório remoto
 
+- [x] Você vai pegar um projeto já iniciado, para trabalhar com o time
+- [] Você precisa resolver um conflito
+
 ## Comandos aprendidos até aqui
 
 - `git init` // inicia a linha do tempo
@@ -43,3 +46,13 @@ https://git-scm.com/download
 - `git log` // visualiza os pontos na linha do tempo / commit
 - `git status` // informa o estado das alterações do nosso projeto
 - `git show` // apresenta determinado ponto na história
+- `git branch` // gerenciar novas linhas do tempo
+- `git checkout` // manipula as linha do tempo
+- `git merge` // unir linhas do tempo
+- `git push` // enviar alterações locais para o repositório remoto
+
+
+## Atalho
+
+- `git checkout -b nome-da-branch` para criar uma branch nova e começar a usar instataneamente
+- `git commit -am 'mensagem do commit'` para adicionar arquivos novos/alterados e realizar o commit na sequência
