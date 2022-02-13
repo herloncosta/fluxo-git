@@ -36,8 +36,11 @@ https://git-scm.com/download
 	- git push para inserir os arquivos no repositório remoto
 
 - [x] Você vai pegar um projeto já iniciado, para trabalhar com o time
-- [] Você precisa resolver um conflito
+- [x] Você precisa resolver um conflito
+- [x] Antes de enviar a resolução, precisamos atualizar o projeto local.
 
+- [x] Você precisa voltar um arquivo para um determinado momento da linha do tempo.
+- [x] Você precisa recuperar um arquivo que foi deletado
 ## Comandos aprendidos até aqui
 
 - `git init` // inicia a linha do tempo
@@ -50,9 +53,12 @@ https://git-scm.com/download
 - `git checkout` // manipula as linha do tempo
 - `git merge` // unir linhas do tempo
 - `git push` // enviar alterações locais para o repositório remoto
+- `git clone` // clonar um projeto / repositório
+- `git pull` // atualiza dados a partir da branch selecionada
 
 
 ## Atalho
 
 - `git checkout -b nome-da-branch` para criar uma branch nova e começar a usar instataneamente
 - `git commit -am 'mensagem do commit'` para adicionar arquivos novos/alterados e realizar o commit na sequência
+- `git checkout id-do-commit -- nome-do-arquivo.js` para recuperar um arquivo deletado em um determinado momento da linha do tempo
