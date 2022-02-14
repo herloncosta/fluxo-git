@@ -54,7 +54,7 @@ https://git-scm.com/download
 - `git merge` // unir linhas do tempo
 - `git push` // enviar alterações locais para o repositório remoto
 - `git clone` // clonar um projeto / repositório
-- `git pull` // atualiza dados a partir da branch selecionada
+- `git pull origin nome-da-branch` // atualiza dados a partir da branch selecionada
 
 
 ## Atalhos
